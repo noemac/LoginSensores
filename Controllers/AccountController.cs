@@ -84,45 +84,7 @@ namespace sensoresapp.Controllers
 
                 //Traer sensores y volcarlo en una grilla
 
-                #region listar sensores en grilla directamente
-                // URL: 
-                //            string url = "http://192.168.0.173:8080/granja/sensores";
-
-                //            using (System.Net.Http.HttpClient client = new System.Net.Http.HttpClient())
-                //            {
-                //                client.BaseAddress = new Uri(url);
-                //                client.DefaultRequestHeaders.Accept.Clear();
-                //                client.DefaultRequestHeaders.Accept.Add(new
-                //System.Net.Http.Headers.MediaTypeWithQualityHeaderValue("application/json"));
-
-                //                System.Net.Http.HttpResponseMessage response = await client.GetAsync(url);
-                //                if (response.IsSuccessStatusCode)
-                //                {
-                //                    var data = await response.Content.ReadAsStringAsync();
-                //                    var table =
-                //Newtonsoft.Json.JsonConvert.DeserializeObject<System.Data.DataTable>(data);
-
-                //                var jsonPuro = data;
-
-
-                //                    System.Web.UI.WebControls.GridView gView = new
-                //System.Web.UI.WebControls.GridView();
-                //                    gView.DataSource = table;
-                //                    gView.DataBind();
-                //                    using (System.IO.StringWriter sw = new System.IO.StringWriter())
-                //                    {
-                //                        using (System.Web.UI.HtmlTextWriter htw = new
-                //    System.Web.UI.HtmlTextWriter(sw))
-                //                        {
-                //                            gView.RenderControl(htw);
-                //                            ViewBag.ReturnedData = sw.ToString();
-                //                        }
-                //                    }
-                //                }
-                //            }
-
-                /**/
-                #endregion
+                
 
                 ApplicationUser user = null;
 
@@ -201,7 +163,7 @@ namespace sensoresapp.Controllers
             }
             else
             {
-                return RedirectToAction("Index", "Home");
+                return RedirectToAction("Index", "Sensor");
             }
         }
 
