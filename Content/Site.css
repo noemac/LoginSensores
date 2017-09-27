@@ -1,14 +1,33 @@
-﻿body {
+﻿/*body {
+
     padding-top: 50px;
     padding-bottom: 20px;
+    background-color: #eeeeee;
+*/
+/*body {
+    margin: 0;
+    padding: 0; 
+    background-image: url('../imagenes/imagenGylComun.png');
+}*/
+
+body {
+    background: url('../imagenes/imagenGylComun.png') no-repeat center center fixed;
+    background-size: cover;
+    background-size: cover;
+    background-size: cover;
+    background-size: cover;
 }
 
 /* Set padding to keep content from hitting the edges */
 .body-content {
     padding-left: 15px;
     padding-right: 15px;
+    
 }
-
+.btn {
+    border-radius: 5px;
+    background: rgb(0, 255, 144);
+}
 /* Override the default bootstrap behavior where horizontal description lists 
    will truncate terms that are too long to fit in the left column 
 */
@@ -24,4 +43,23 @@ textarea {
 }
 .inputLogin{
     margin-top: 10px;
+}
+
+.form-control {
+    border-radius: 5px;
+   }
+form {
+    padding: 100px;
+    border-radius: 5px;
+    box-shadow: 0 0px 12px rgba(0,0,0,74);
+}
+.loginBox {
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 350px;
+    height: 420px;
+    box-sizing: border-box;
+    background: rgba(0,0,0,5);
 }

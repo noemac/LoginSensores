@@ -19,10 +19,11 @@
                     @Html.AntiForgeryToken()
                     //<h4>Use una cuenta local para iniciar sesión.</h4>
                     <hr />
+                    //<div class="col-md-offset-4 col-md-8"> <img class="logo" src="~/imagenes/imagenGylComun.png" /></div>
                     @Html.ValidationSummary(true, "", new { @class = "text-danger" })
                     <div class="form-group">
-                        @Html.LabelFor(m => m.Email, new { @class = "col-md-3 control-label" })
-                        <div class="col-md-9">
+                        @Html.LabelFor(m => m.Email, new { @class = "col-md-4 control-label" })
+                        <div class="col-md-8">
                             @Html.TextBoxFor(m => m.Email, new { @class = "form-control inputLogin" })
                             @Html.ValidationMessageFor(m => m.Email, "", new { @class = "text-danger" })
                         </div>
@@ -57,10 +58,11 @@
                 }
             </section>
         </div>
-        <div class="col-md-4">
+        @*<div class="col-md-4">
             @*<section id="socialLoginForm">
                 @Html.Partial("_ExternalLoginsListPartial", new ExternalLoginListViewModel { ReturnUrl = ViewBag.ReturnUrl })
             </section>*@
+            
         </div>
     </div>
 
