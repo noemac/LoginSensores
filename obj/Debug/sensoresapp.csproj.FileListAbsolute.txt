@@ -288,7 +288,6 @@ C:\Machuca\LoginSensores\bin\es\Microsoft.Owin.Security.Facebook.resources.dll
 C:\Machuca\LoginSensores\bin\es\Microsoft.Owin.Security.Google.resources.dll
 C:\Machuca\LoginSensores\bin\es\Microsoft.Owin.Security.Twitter.resources.dll
 C:\Machuca\LoginSensores\bin\es\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
-C:\Machuca\LoginSensores\obj\Debug\sensoresapp.csprojResolveAssemblyReference.cache
 C:\Machuca\LoginSensores\obj\Debug\sensoresapp.csproj.CoreCompileInputs.cache
 C:\Machuca\LoginSensores\obj\Debug\sensoresapp.dll
 C:\Machuca\LoginSensores\obj\Debug\sensoresapp.pdb
